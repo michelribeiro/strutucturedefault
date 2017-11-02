@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.scss"],"names":[],"mappings":"AAAA;EACI,gBAAe,EAKlB;EAND;IAIQ,iBAAgB,EACnB","file":"index.css","sourcesContent":[".teste {\n    background: red;\n\n    .bc {\n        background: blue;\n    }\n}"]}
