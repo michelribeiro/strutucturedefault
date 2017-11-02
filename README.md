@@ -1,6 +1,6 @@
 ## Structure default to your project
 
-. gulp
-. sass
+* gulp
+* sass
 
 @michelribeiro
