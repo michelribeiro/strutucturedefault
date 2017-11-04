@@ -3,12 +3,13 @@
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
 
-gulp.task('build', ['clean'], function() {
+gulp.task('dev', ['clean'], function() {
 
-  return runSequence (
+  return runSequence(
+    'markup',
     'sass',
-    'markup'
+    'watch',
+    'serve'
   );
 
 });
-

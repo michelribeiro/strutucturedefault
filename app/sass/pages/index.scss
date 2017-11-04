@@ -1,7 +1,14 @@
+body {
+    background: fuchsia;
+}
 .teste {
     background: red;
 
     .bc {
         background: blue;
+
+        &_de {
+            background: yellow;
+        }
     }
 }
